@@ -1,8 +1,6 @@
 import discord
 from discord.ext import commands
 
-token = "NTU4ODk1MDM5ODMzNDQwMjU3.D3oalQ._voS4vvKei30nRppZL24p6khNCA"
-
 client = commands.Bot(command_prefix = "blackat: ")
 
 @client.event
