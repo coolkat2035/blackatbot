@@ -3,14 +3,14 @@ from discord.ext import commands
 
 token = "NTU4ODk1MDM5ODMzNDQwMjU3.D3oalQ._voS4vvKei30nRppZL24p6khNCA"
 
-client = commands.Bot(command_prefix = "blackat: {space}")
+client = commands.Bot(command_prefix = "blackat: ")
 
 @client.event
 async def on_ready():
     print("blackat is online yooooooo")
     #print(client.user.name)
     #print(client.user.id)
-    await client.change_presence(game = discord.Game(name = "blackat: | include space after the colon!"))
+    await client.change_presence(game = discord.Game(name = "blackat: {space}"))
     
 @client.event
 async def on_message(message):
