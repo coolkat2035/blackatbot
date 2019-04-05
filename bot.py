@@ -24,7 +24,7 @@ async def on_message_delete(message):
     author = message.author
     content = message.content
     channel = message.channel
-    await client.send_message(channel,"{} deleted \"{}\".\n:regional_indicator_f: ".format(author, content))
+    await client.send_message(channel,"{} has just deleted \"{}\".\n:regional_indicator_f: ".format(author, content))
     
 @client.command()
 async def say(*stuff):
