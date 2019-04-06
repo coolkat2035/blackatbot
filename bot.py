@@ -53,15 +53,5 @@ async def embed():
     """
                        
     await client.say(embed = resp)
-    
-"""@client.command()
-async def help():
-    
-    resp = discord.Embed(
-        title = "Blackat Command Help",
-        description = "The prefix is \"blackat: \"",
-        colour = 0xffffff
-    )
-    await client.say(embed = resp)
-"""
+
 client.run(token)
