@@ -54,7 +54,7 @@ async def embed():
                        
     await client.say(embed = resp)
     
-@client.command()
+"""@client.command()
 async def help():
     
     resp = discord.Embed(
@@ -63,5 +63,5 @@ async def help():
         colour = 0xffffff
     )
     await client.say(embed = resp)
-                       
+"""
 client.run(token)
